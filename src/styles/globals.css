@@ -5,7 +5,7 @@
 @tailwind utilities;
 
 :root {
-  --foreground-hex: #1A1F36;
+  --foreground-hex: #667185;
   --background-hex: #FFFFFF;
 
   font-synthesis: none;
@@ -22,7 +22,7 @@
 
 
 body {
-  color: rgb(var(--foreground-rgb));
+  color: rgb(var(--foreground-hex));
   background: var(--background-hex);
   font-family: "Inter", sans-serif;
   font-weight: 400;

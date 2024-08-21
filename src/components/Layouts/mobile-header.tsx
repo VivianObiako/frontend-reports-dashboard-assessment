@@ -1,5 +1,4 @@
 import React from 'react';
-import { Logo } from '../Icons/Logo';
 
 interface Props {
     openMenu: () => void;

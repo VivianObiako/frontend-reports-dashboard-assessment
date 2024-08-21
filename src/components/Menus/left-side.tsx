@@ -80,7 +80,7 @@ export const LeftSideMenu: React.FC<Props> = ({ isMenuOpen, onClose }) => {
               <ReportsIcon
                 className="h-[16px] w-[16px]"
               />
-              <p className="text-[14px] leading-[16.94px] font-normal">
+              <p className="text-[14px] leading-[16.94px] font-semibold">
                 Reports
               </p>
             </li>
