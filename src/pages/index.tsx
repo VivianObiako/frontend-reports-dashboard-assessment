@@ -5,7 +5,7 @@ export const ReportsView: React.FC = () => {
   return (
     <>
       <SideBarLayout>
-        <div className="h-full w-full text-black text-[50px] ml-[200px]">
+        <div className="h-full w-full text-black pt-5 text-[50px] xl:ml-[44px]">
           hey!
         </div>
       </SideBarLayout>
