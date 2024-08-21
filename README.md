@@ -36,4 +36,4 @@ npm run dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-The project was deployed on Vercel at [https://frontend-reports-dashboard-assessment.vercel.app/](FrontendAssessment)
+The project was deployed on Vercel at [Peppermint Frontend Assessment](https://frontend-reports-dashboard-assessment.vercel.app/)
