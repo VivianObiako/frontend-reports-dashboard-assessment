@@ -1,9 +1,14 @@
 import React from 'react'
-import SearchIcon from '../Icons/SearchIcon'
-import ArrowDown from '../Icons/ArrowDown'
+import SearchIcon from '../Icons/search-icon'
+import ArrowDown from '../Icons/arrow-down'
 import { Badge } from 'flowbite-react'
+import moment from 'moment';
 
-const TopSection = () => {
+interface Props {
+    data: TestInfo;
+}
+
+const TopSection = ({data}:Props) => {
   return (
     <div className='pb-4 border-b border-b-gray-100 mb-8'>
         <div className='w-full flex justify-between flex-col sm:flex-row px-4  xl:px-10 mb-8'>
@@ -19,11 +24,11 @@ const TopSection = () => {
         <div className="flex gap-[6px] font-medium text-sm items-center px-4  xl:px-10 mb-8">
             <a className="text-primary-200 hover:text-primary-400" href="/">Reports</a>
             <ArrowDown className="rotate-[-90deg]" />
-            <a className="text-purple-100 hover:text-blue-100" href="/">Wallet Feature</a>
+            <a className="text-purple-100 hover:text-blue-100" href="/">{data?.name}</a>
         </div>
         <div className="flex gap-4 font-medium text-sm items-center px-4  xl:px-10">
-            <Badge color="gray" className='font-medium text-xs text-primary-400'>Usability Study</Badge>
-            <p className="text-primary-100 text-[15px]">13 March 2024 01:56 AM</p>
+            <Badge color="gray" className='font-medium text-xs text-primary-400'>{data?.type}</Badge>
+            <p className="text-primary-100 text-[15px]">{moment(data.datePublished).format("DD MMMM YYYY hh:mm A")}</p>
         </div>
     </div>
   )

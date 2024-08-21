@@ -3,7 +3,7 @@ import { useRouter } from "next/router"
 import { HomeIcon } from "../Icons/home-icon"
 import { ReportsIcon } from "../Icons/reports-icon"
 import {Drawer} from "flowbite-react";
-import ArrowDown from "../Icons/ArrowDown";
+import ArrowDown from "../Icons/arrow-down";
 
 type Props = {
   isMenuOpen: boolean;
