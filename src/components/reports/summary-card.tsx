@@ -24,7 +24,7 @@ const SummaryCard = ({data}: Prop) => {
               <p className='font-medium text-sm leading-[16.94px] text-primary-400'>Location</p>
               <p className='font-medium text-sm leading-[16.94px] text-blue-100'>View</p>
             </div>
-            <div className="w-full h-[369px] overflow-x-scroll" >
+            <div className="w-full md:h-[369px] graph-scroll" >
               <Map data={MapData} width={458} height={369} locationBreakdown={data?.locationBreakdown} />
             </div>
           </div>

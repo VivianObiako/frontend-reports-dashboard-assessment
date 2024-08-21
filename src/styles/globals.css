@@ -29,6 +29,12 @@ body {
   font-style: normal;
 }
 
+@media (max-width: 1400px) {
+  .graph-scroll{
+    overflow-x: auto;
+  }
+}
+
 html::-webkit-scrollbar,
 .hide-scroll::-webkit-scrollbar {
   display: none;
