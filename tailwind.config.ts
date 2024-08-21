@@ -25,6 +25,11 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      boxShadow: {
+        navBar: '-1px 0px 0px 0px #E3E8EE inset',
+        tooltip: '0px 1px 1px 0px #0000001F 0px 0px 0px 1px #3C425729 0px 2px 5px 0px #3C425714',
+        
+      }
     },
   },
   plugins: [

@@ -8,7 +8,7 @@ export const ReportsView: React.FC = () => {
   return (
     <>
       <SideBarLayout>
-        <div className="h-full w-full text-black pt-5 text-[50px] xl:ml-[44px]">
+        <div className="h-screen overflow-y-scroll w-full text-black pt-5 text-[50px] xl:ml-[44px]">
           <TopSection data={ParticipantsData?.testInfo} />
           <SummaryCard data={ParticipantsData} />
           <div className="mt-8 flex w-full justify-between px-4 xl:px-10">

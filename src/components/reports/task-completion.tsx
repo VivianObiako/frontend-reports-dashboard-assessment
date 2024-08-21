@@ -18,7 +18,7 @@ const TaskCompletion = ({taskCompletion, totalTasks}:Props) => {
             <p className='text-xs leading-[14.52px] text-primary-300'>Overall completion rate</p>
         </div>
         <div className='flex flex-col gap-[7px] pt-5 pb-8'>
-            <p className='text-sm leading-[16.94px] text-blue-100 text-right'>View</p>
+            <p className='text-sm leading-[16.94px] text-blue-100 text-right font-medium'>View</p>
             <p className='text-[16px] leading-[19.36px] text-primary-300 text-right'>{totalTasks}</p>
             <p className='text-xs leading-[14.52px] text-primary-300'>Total tasks</p>
         </div>

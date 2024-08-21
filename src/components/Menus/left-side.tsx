@@ -16,7 +16,7 @@ export const LeftSideMenu: React.FC<Props> = ({ isMenuOpen, onClose }) => {
   return (
     <Drawer 
       id="sidebar-multi-level-sidebar" 
-      className={`fixed top-0 left-0 p-0 z-40 w-[280px] bg-[#F7F8F9] flex-shrink-0 h-screen transition-transform -translate-x-full xl:translate-x-0 ${
+      className={`fixed top-0 left-0 p-0 z-40 shadow-navBar w-[280px] bg-[#F7F8F9] flex-shrink-0 h-screen transition-transform -translate-x-full xl:translate-x-0 ${
         isMenuOpen ? 'translate-x-0' : '-translate-x-full'
       } xl:translate-x-0 xl:static xl:inset-0`}
       aria-label="Sidebar"
